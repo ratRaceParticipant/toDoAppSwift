@@ -28,7 +28,7 @@ struct HomeScreen: View {
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
                         EditButton()
-                            
+                            .buttonStyle(.bordered) 
                     }
                     ToolbarItem {
                         Button {
@@ -39,6 +39,7 @@ struct HomeScreen: View {
                         .sheet(isPresented: $showSheet) {
                             AddItemView(viewModel: viewModel)
                         }
+                        .buttonStyle(.bordered)
                         
 
                     }

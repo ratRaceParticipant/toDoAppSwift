@@ -32,14 +32,16 @@ struct SingleListItemView: View {
             }
             Spacer()
             Button {
-                
+                viewModel.updateCompletionState(item: toDoModel)
             } label: {
                 if toDoModel.isCompleted {
                     Image(systemName: "checkmark.circle.fill")
                         .foregroundColor(.accentColor)
+                        
                 } else {
                     Image(systemName: "circle")
                         .foregroundColor(.accentColor)
+                        
                 }
             }
 
