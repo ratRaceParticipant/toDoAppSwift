@@ -109,6 +109,7 @@ struct AddItemView: View {
             viewModel.addItem(toDoText: toDoText, priority: priority, dueDate: dueDate)
             presentationMode.wrappedValue.dismiss()
             viewModel.getItems()
+            NotificationManager.instance.scheduleNotification(toDoModel: ToDoModel(toDoText: toDoText, toDoPriority: priority, toDoDuedate: dueDate, isCompleted: false, createdOn: Date()))
         }
         
     }

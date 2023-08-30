@@ -18,6 +18,7 @@
 		831EC8052A93CE9A00FFEE86 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EC8042A93CE9A00FFEE86 /* AddItemView.swift */; };
 		831EC8072A94750900FFEE86 /* AddItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EC8062A94750900FFEE86 /* AddItemViewViewModel.swift */; };
 		831EC8092A99C5C200FFEE86 /* SingleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EC8082A99C5C200FFEE86 /* SingleListItemView.swift */; };
+		83434FB12A9F7DC8009259E6 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83434FB02A9F7DC8009259E6 /* NotificationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		831EC8042A93CE9A00FFEE86 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		831EC8062A94750900FFEE86 /* AddItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewViewModel.swift; sourceTree = "<group>"; };
 		831EC8082A99C5C200FFEE86 /* SingleListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleListItemView.swift; sourceTree = "<group>"; };
+		83434FB02A9F7DC8009259E6 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				831EC8022A93CE1400FFEE86 /* ToDoModel.swift */,
+				83434FB02A9F7DC8009259E6 /* NotificationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				831EC8072A94750900FFEE86 /* AddItemViewViewModel.swift in Sources */,
 				831EC7FF2A93C54200FFEE86 /* ListItemView.swift in Sources */,
 				831EC8012A93C58600FFEE86 /* NoItemsView.swift in Sources */,
+				83434FB12A9F7DC8009259E6 /* NotificationModel.swift in Sources */,
 				831EC8032A93CE1400FFEE86 /* ToDoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

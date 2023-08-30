@@ -10,6 +10,9 @@ import SwiftUI
 @main
 struct ToDoAppApp: App {
     @StateObject var viewModel: ToDoItemViewModel = ToDoItemViewModel()
+    init() {
+        NotificationManager.instance.requestNotification()
+    }
     var body: some Scene {
         WindowGroup {
             HomeScreen(viewModel: viewModel)
